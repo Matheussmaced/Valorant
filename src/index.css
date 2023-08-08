@@ -1,0 +1,99 @@
+.background{
+  min-width: 100%;
+  height: 100vh;
+  background-color: #ff4656;
+  clip-path: polygon(100% 0, 30% 100%, 100% 100%);
+  position: absolute;
+  
+}
+html{
+  background-color: #0F1923;
+}
+#containerHeader{
+  position: relative;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: auto;
+  align-items: center;
+  padding-top: 42px;
+  margin-bottom: 220px;
+}
+
+#containerBody{
+  position: relative;
+  width: 88%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#icons img{
+  border: solid #fff 2px;
+  background-color: #ff4656;
+  clip-path: polygon(10% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 10%);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  margin-top: 64.7px;
+  margin-left: 1.5%;
+}
+#icons{
+  display: flex;
+  align-items: center;
+  grid-gap: 28px;
+}
+img{
+  z-index: 1;
+}
+.iconsBorder{
+  background: #fff;
+  width: 174px;
+  height: 174px;
+  position: absolute;
+  margin-top: 45px;
+  clip-path: polygon(10% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 10%);
+}
+.iconsBorder::after{
+  content: "";
+  position: absolute;
+  background: #1f2326;
+  width: 98.5%;
+  height: 98.5%;
+  left: 1px;
+  top: 1px;
+  clip-path: polygon(10% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 10%);
+}
+#borderSage{
+  margin-left: 210px;
+}
+#borderSova{
+  margin-left: 420px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 900px){
+  #icons{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 28px;
+  }
+  .iconsBorder{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 174px;
+    height: 174px;
+    position: absolute;
+    margin-top: 45px;
+    clip-path: polygon(10% 0, 100% 0, 100% 80%, 80% 100%, 0 100%, 0 10%);
+  }
+}
