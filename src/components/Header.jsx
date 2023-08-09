@@ -1,5 +1,5 @@
-import Logo from '../assets/img/Logo valorant.svg'
-import LogoRiot from '../assets/img/Logo riot.svg'
+import Logo from '../assets/img/iconValorant.svg'
+import LogoRiot from '../assets/img/LogoRiot.svg'
 import Share from '../assets/img/share.png'
 const Header = () => {
     return(
@@ -8,7 +8,7 @@ const Header = () => {
             <header>
                 <img src={Logo} alt="Logo Valorant" />
                 <img src={LogoRiot} alt="Logo Riot" />
-                <img src={Share} alt="Share icon" />
+                <img id='share' src={Share} alt="Share icon" />
             </header>
         </div>
     )
