@@ -11,12 +11,21 @@ const Body = () =>{
                 <div id="containerLeft">
                     <img id='logoValorant' src={LogoValorant} alt="Logo Valorant" />
                     <div id="icons">
-                        <div id='borderOmen' className="iconsBorder"></div>
-                        <img className='icons' src={iconOmen} alt="Omen" />
-                        <div id='borderSage' className="iconsBorder"></div>
-                        <img className='icons' src={iconSage} alt="Sage" />
-                        <div id='borderSova'className="iconsBorder"></div>
-                        <img className='icons' src={iconSova} alt="Sova" />
+                        <div id="omen">
+                            <div id='borderOmen' className="iconsBorder"></div>
+                            <img className='icons' src={iconOmen} alt="Omen" />
+                            <p>Omen</p>
+                        </div>
+                        <div id="sage">
+                            <div id='borderSage' className="iconsBorder"></div>
+                            <img className='icons' src={iconSage} alt="Sage" />
+                            <p>Sage</p>
+                        </div>
+                        <div id="Sova">
+                            <div id='borderSova'className="iconsBorder"></div>
+                            <img className='icons' src={iconSova} alt="Sova" />
+                            <p>Sova</p>
+                        </div>
                     </div>
                 </div>
 
