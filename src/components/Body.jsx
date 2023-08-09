@@ -1,4 +1,4 @@
-import LogoValorant from '../assets/img/LogoValorant.svg'
+import LogoValorant from '../assets/img/logoValorant.svg'
 import iconOmen from '../assets/img/omen.svg'
 import iconSage from '../assets/img/sage.svg'
 import iconSova from '../assets/img/sova.svg'
